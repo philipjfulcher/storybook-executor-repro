@@ -17,9 +17,7 @@
         "assets": ["apps/my-app/src/favicon.ico", "apps/my-app/src/assets"],
         "styles": ["apps/my-app/src/styles.scss"],
         "stylePreprocessorOptions": {
-          "includePaths": [
-            "libs/design-system/src/lib"
-          ]
+          "includePaths": ["libs/design-system/src/lib"]
         },
         "scripts": []
       },

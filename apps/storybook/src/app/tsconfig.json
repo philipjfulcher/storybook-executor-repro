@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "emitDecoratorMetadata": true
+  },
+  "include": ["**/*.ts", "../../../../libs/design-system/**/*.ts"],
+  "exclude": [
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    "../../../../libs/design-system/**/*.test.ts",
+    "../../../../libs/design-system/**/*.spec.ts"
+  ]
+}
